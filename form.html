@@ -1,0 +1,69 @@
+<html>
+    <head><h1>Student Admission Form :</h1></head>
+    <title>Student Admission Form</title>
+    <body>
+        <form>
+            <p>
+            <label for="name">Name * :</label>
+            <input type="text" id="name" name="Student_Name" placeholder="student name" required>
+            </p>
+            <p>
+            <label for="father_name">Father Name * :</label>
+            <input type="text" id="father_name" name="Father_Name" placeholder="father name" required>
+            </p>
+            <p>
+            <label for="mobile_number">Mobile Number * :</label>
+            <input type="number" id="mobile_number" name="mobile_number" placeholder="10 digit mobile number" required>
+            </p>
+            <p>
+            <label for="aadhar_number">Aadhar Number * :</label>
+            <input type="number" id="aadhar_number" name="aadhar_number" placeholder="12 digit aadhar number" required>
+            </p>  
+            <p>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email_id" placeholder="inter your email address">
+            </p> 
+            <p>Gender :
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="student_gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="student_gender">
+            </p>       
+            <p>Course : 
+            <label for="dca">DCA</label>
+            <input type="checkbox" id="dca" >
+            <labe for="adca">ADCA</labe>
+            <input type="checkbox" id="adca">
+            <label for="dtp">DTP</label>
+            <input type="checkbox" id="dtp">
+            </p>
+            <p>
+            <label for="password">Password * :</label>
+            <input type="password" id="password" name="student_password" placeholder="enter 10digit password" required>
+            </p>
+            <p>
+            <label for="confirm_Password">Confirm Password * :</label>
+            <input type="password" id="confirm_Password" name="student_confirm_password" placeholder="confirm password" required>
+            </p>     
+            <p>Select State * :
+            <select for="select_state">
+            <option>Select State</option>   
+            <option name="BR">Bihar</option>
+            <option name="JH">Jharkhand</option>
+            </select>
+            </p>
+            <label for="file_upload">Student Picture * :</label> 
+            <input type="file" id="file_upload" name="student_photo">
+            </p>
+            <p>Date of Birth * :
+            <input type="date" name="date of birth">
+            </p> 
+            <p>
+            <label for="address">Address * :</label> 
+            <input type="textarea" id="address" name="student address" required>
+            </p> 
+            <input type="reset" value="reset"/>
+            <input type="submit" value="submit"/>
+        </form>
+    </body>
+</html>

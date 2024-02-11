@@ -1,21 +1,28 @@
 <html>
-    <head><h1>Student Admission Form :</h1></head>
+    <head>
+        <style>
+            .star {
+                color:red
+            }
+        </style>
+        <h1>Student Admission Form :</h1>
+    </head>
     <title>Student Admission Form</title>
     <body>
         <form>
-            <label for="name">Name * :</label>
+            <label for="name">Name<span class="star">*</span> :</label>
             <input type="text" id="name" name="Student_Name" placeholder="student name" required>
             <br>
             <br>
-            <label for="father_name">Father Name * :</label>
+            <label for="father_name">Father Name <span class="star">*</span> :</label>
             <input type="text" id="father_name" name="Father_Name" placeholder="father name" required>
             <br>
             <br>
-            <label for="mobile_number">Mobile Number * :</label>
+            <label for="mobile_number">Mobile Number <span class="star">*</span> :</label>
             <input type="number" id="mobile_number" name="mobile_number" placeholder="10 digit mobile number" required>
             <br>
             <br>
-            <label for="aadhar_number">Aadhar Number * :</label>
+            <label for="aadhar_number">Aadhar Number <span class="star">*</span> :</label>
             <input type="number" id="aadhar_number" name="aadhar_number" placeholder="12 digit aadhar number" required>
             <br>
             <br>
@@ -39,15 +46,15 @@
             <input type="checkbox" id="dtp">
             <br>
             <br>
-            <label for="password">Password * :</label>
+            <label for="password">Password <span class="star">*</span> :</label>
             <input type="password" id="password" name="student_password" placeholder="enter 10digit password" required>
             <br>
             <br>
-            <label for="confirm_Password">Confirm Password * :</label>
+            <label for="confirm_Password">Confirm Password <span class="star">*</span> :</label>
             <input type="password" id="confirm_Password" name="student_confirm_password" placeholder="confirm password" required>
             <br>
             <br>
-            Select State * :
+            Select State <span class="star">*</span> :
             <select for="select_state">
             <option>Select State</option>   
             <option name="BR">Bihar</option>
@@ -55,15 +62,15 @@
             </select>
             <br>
             <br>
-            <label for="file_upload">Student Picture * :</label> 
+            <label for="file_upload">Student Picture <span class="star">*</span> :</label> 
             <input type="file" id="file_upload" name="student_photo">
             <br>
             <br>
-            Date of Birth * :
+            Date of Birth <span class="star">*</span> :
             <input type="date" name="date of birth">
             <br>
             <br>
-            <label for="address">Address * :</label> 
+            <label for="address">Address <span class="star">*</span> :</label> 
             <input type="textarea" id="address" name="student address" required>
             <br>
             <br> 
